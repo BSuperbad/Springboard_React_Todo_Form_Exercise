@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches TodoList snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <h2>
+        Todo List:
+      </h2>
+      <div>
+        <ul>
+          <li>
+            Take out Trash 
+            <button>
+              X
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>
+            Do Dishes 
+            <button>
+              X
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <h3>
+      Add a Task to Your Todo List!
+    </h3>
+    <form>
+      <label
+        for="todo_text"
+      >
+        Add New Todo: 
+      </label>
+      <input
+        id="todo_text"
+        name="todo_text"
+        placeholder="Enter a Task"
+        type="text"
+        value=""
+      />
+      <button
+        type="submit"
+      >
+        Add Task to Todo List
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
